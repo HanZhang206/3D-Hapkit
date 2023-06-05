@@ -1,7 +1,4 @@
-/*********************
- * Arduino SPI communication of 1 Integer
- * Implemented by Jan Bartels 26OCT2022
- ********************/
+// 3D Hapkit Leader board Code
 #include <Wire.h>
 
 int pwmPin = 5; // PWM output pin for motor 1
@@ -377,7 +374,6 @@ double getAngle()
   //** Section 2. Compute position in meters *******************
   //************************************************************
 
-  // ADD YOUR CODE HERE
   // Define kinematic parameters you may need
   double rh = 0.090;   //[m]
   // Step B.1: print updatedPos via serial monitor
@@ -386,7 +382,7 @@ double getAngle()
   double ts =  0.0111*updatedPos - 1.905;// Compute the angle of the sector pulley (ts) in degrees based on updatedPos
   return ts; 
 }
-
+// forward kinematics for 3D hapkit
 void forward(double* angIn, double* pos)
 {
   double ang[3];
@@ -420,6 +416,7 @@ void forward(double* angIn, double* pos)
   pos[2] = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
   pos[0] = e1 * pos[2] + f1;
   pos[1] = e2 * pos[2] + f2;
+  pos[1] = -pos[1] ;
   return 0;
 }
 

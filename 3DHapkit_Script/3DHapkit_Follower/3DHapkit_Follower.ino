@@ -1,7 +1,4 @@
-/*********************
- * Arduino SPI communication of 1 Integer
- * Implemented by Jan Bartels 26OCT2022
- ********************/
+// 3D Hapkit Follower board Code
 
  #include <Wire.h>
 
@@ -83,7 +80,7 @@ void setup() {
   TCCR1A = 0;
   TCCR1B = 0;
   TCNT1  = 0;
-  OCR1A = 40;// = (16*10^6)/(50*1024) - 1 (must be <65536) 
+  OCR1A = 40;
   TCCR1B |= (1 << WGM12);
   TCCR1B |= (1 << CS12)| (1 << CS10);
   TIMSK1 |= (1 << OCIE1A);   
@@ -179,7 +176,6 @@ double getAngle()
   //** Section 2. Compute position in meters *******************
   //************************************************************
 
-  // ADD YOUR CODE HERE
   // Define kinematic parameters you may need
   double rh = 0.090;   //[m]
   // Step B.1: print updatedPos via serial monitor
