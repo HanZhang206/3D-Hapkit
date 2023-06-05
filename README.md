@@ -27,7 +27,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 ## Manufacture List
 - Parts List: [Here is a parts list with purchase information]().
 - STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](). Note: Model units are in mm.
-- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files]().Note: Model units are in mm.
+- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files9
 - Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](). Note: These are only for use with the SolidWorks CAD program.
 - 3D printing tips: [Here are 3D printing tips for creating your 3D-printed Hapkit parts]().
 - Assembly instructions: [Here are instructions for assembling your Hapkit into a functional haptic device]().
@@ -64,7 +64,7 @@ Those boards were communicated by using I2C protocol. We provided sample [Arduin
 
 
 ## Software 
-We create a sample scene for demo purpose. Users are able to control a ball(shown in green) by the handle to pass through the holes. Our 3-DOF Hapkit is designed to simulate that virtual wall and present haptic interactio with the wall. In order to provide a better visualization for our sample scene, we use the Processing ([Download Here](https://processing.org/download))
+We create a sample scene for demo purpose. Users are able to control a ball(shown in green) by the handle to pass through the holes. Our 3-DOF Hapkit is designed to simulate that virtual wall and present haptic interaction with the wall. The Processing ([Download Here](https://processing.org/download)) was used to provide a better visualization.
 ### To use 
  - Download the [Processing](https://processing.org/download).
  - Open the Processing and [deltaProcessing.pde]().
