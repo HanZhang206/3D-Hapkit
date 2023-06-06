@@ -57,7 +57,7 @@ Those boards were communicated by using I2C protocol. We provided sample [Arduin
     ```cpp
   Wire.begin(8);                // join i2c bus with address #8
     ```
-    - In line 58 (**3DHapkit_Follower.ino**), assign the address #12 for follower #2
+    - In **line 58** (**3DHapkit_Follower.ino**), assign the address #12 for follower #2
     ```cpp
   Wire.begin(12);                // join i2c bus with address #12
     ```
