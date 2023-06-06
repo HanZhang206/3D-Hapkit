@@ -81,3 +81,10 @@ We create a sample scene for demo purpose. Users are able to control a ball(show
 
 # **Acknowledgement**
 The development and implementation of the 3D Hapkit is supported by [Haptics and Medical Robotics(HAMR) Laboratory](https://hamr.lcsr.jhu.edu/). Special thanks to Dr. Jeremy Brown for this guidance and invaluable advice.
+
+# **TO DO** 
+- Citation in acknowledgement
+- Assembly Instruction
+- Part list
+- 3D print tip
+- Poster 
