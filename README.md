@@ -1,7 +1,7 @@
 <div align="center">
 
 # **3D Hapkit**: A Low-Cost, Open-Source, 3-DOF Haptic Device Based on the Delta Parallel Mechanism
-<img src="pic/3D_Hapkit.jpg" alt="3 DOF Hapkit Overview" width="500">
+<img src="readmedoc/3D_Hapkit.jpg" alt="3 DOF Hapkit Overview" width="500">
 </div>
 
 3D Hapkit is a 3-DOF haptic device that was created as a customization project for [Hapkit 3.0](https://hapkit.stanford.edu/). The 3D Hapkit was presented as WIP Paper and Demo in [2023 IEEE World Haptics](https://2023.worldhaptics.org/wip-papers/). This device is an open-hardware haptic device designed to be low-cost(<$300) and easy to assemble, allowing users to input motions and feel programmed forces in three degrees of freedom. 
@@ -16,7 +16,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 # **Build One**
 ## Hardware
 <div align="center">
-<img src="pic/solidworks.png" alt="3 DOF Hapkit Overview" width="500">
+<img src="readmedoc/solidworks.png" alt="3 DOF Hapkit Overview" width="500">
 </div>  
 
 ## Dependency
@@ -33,12 +33,12 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 - Assembly instructions: [Here are instructions for assembling your Hapkit into a functional haptic device]().
 
 <div align="center">
-<img src="pic/manufacture.png" alt="3 DOF Hapkit Overview" width="700">
+<img src="readmedoc/manufacture.png" alt="3 DOF Hapkit Overview" width="700">
 </div>
 
 ## Electronics 
 <div align="center">
-<img src="pic/workflow.png" alt="3 DOF Hapkit Overview" width="700">
+<img src="readmedoc/arduinoworkflow.png" alt="3 DOF Hapkit Overview" width="700">
 </div>
 
 The electronics of 3D Hapkit were consisted of three custom PCB([Link to Hapkit 3.0](https://hapkit.stanford.edu/build.html)), the size of an Arduino Uno and includes a microcontroller, motor driver/amplifier. The Hapkit board could be purchased from [Seeed studio](https://www.seeedstudio.com/depot/hapkit-p-1622.html). Also, you can manufacture your own PCB by combining the Arduino, motor driver and sensors. Here is a good starting point obtained from Seeed Studio([Files]()).
@@ -48,18 +48,18 @@ Those boards were communicated by using I2C protocol. We provided sample [Arduin
 - Connect all I2C Ports(A4/A5).
 - Connect all Ground Pin for three boards together.
 - Choose one board as the leader and load the script(3DHapkit_Leader.ino).([Arduino IDE Download](https://www.arduino.cc/en/software)).
-    - If want to use Serial monitor in Arduino IDE, commented out the Line 90(3DHapkit_Leader.ino) in script.
+    - If want to use Serial monitor in Arduino IDE, commented out the **Line 79**(3DHapkit_Leader.ino) in script.
     ```cpp
   #define PROCESSING 1 //connect to the processing for visualization
     ``` 
 - Load the script(3DHapkit_Follower.ino) to two other boards. 
-    - In line 58 (**3DHapkit_Follower.ino**), assign the address #8 for follower #1
+    - In **line 55** (**3DHapkit_Follower.ino**), assign the address #8 for follower #1
     ```cpp
   Wire.begin(8);                // join i2c bus with address #8
     ```
     - In line 58 (**3DHapkit_Follower.ino**), assign the address #12 for follower #2
     ```cpp
-  Wire.begin(12);                // join i2c bus with address #8
+  Wire.begin(12);                // join i2c bus with address #12
     ```
 
 
@@ -69,17 +69,15 @@ We create a sample scene for demo purpose. Users are able to control a ball(show
  - Download the [Processing](https://processing.org/download).
  - Open the Processing and [deltaProcessing.pde]().
  - Connect the laptop to the leader board.
+ - Check the USB port and change to correct one in **line 38**
+     ```cpp
+     myPort = new Serial(this, "com5", 115200); //change "com5" based on the local port connection 
+      ```
  - Click 'Run'.
 
 <div align="center">
-<img src="pic/processing.png" alt="3 DOF Hapkit Overview" width="700">
+<img src="readmedoc/processing.png" alt="3 DOF Hapkit Overview" width="500">
 </div>
 
-# TODO
-Processing port selection bug update 
-hyperlink update
-Arduino code fix bug
-Fig bug fixed, forward kinematics 
-
 # **Acknowledgement**
-The development and implementation of the 3D Hapkit is supported by [Haptics and Medical Robotics(HAMR) Laboratory]((https://hamr.lcsr.jhu.edu/)). Special thanks to Dr. Jeremy Brown for this guidance and invaluable advice.
+The development and implementation of the 3D Hapkit is supported by [Haptics and Medical Robotics(HAMR) Laboratory](https://hamr.lcsr.jhu.edu/). Special thanks to Dr. Jeremy Brown for this guidance and invaluable advice.

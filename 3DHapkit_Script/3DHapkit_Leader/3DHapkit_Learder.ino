@@ -39,27 +39,20 @@ const int flipThresh = 700;  // threshold to determine whether or not a flip ove
 boolean flipped = false;
 double OFFSET = 980;
 double OFFSET_NEG = 15;
-
-
 uint8_t dir = 0;
 bool new_data = false;
-
 double R = 95;
 double r = 54.45;
 double l1 = 80;
 double l2 = 170;
- 
- 
 int handle_pos[3];
 double handle_angle[3];
 double ts;
-
 int zWallPosintion = 130;
 int zWallThick = 10;
 int nBallRadius = 10;
 int nHoleRadius = 20;
 int nCirleCenter[2][2];
-
 // Kinematics variables
 double xh = 0;           // position of the handle [m]
 double theta_s = 0;      // Angle of the sector pulley in deg
@@ -71,7 +64,6 @@ double dxh_prev2;
 double dxh_filt;         // Filtered velocity of the handle
 double dxh_filt_prev;
 double dxh_filt_prev2;
-
 double force = 0;           // force at the handle
 double duty[3];
 int output = 0;
@@ -85,7 +77,6 @@ double dTmp =  rh * rp / (rs*0.03);
 bool bSerial =false;
 
 #define PROCESSING 1 
-
 
 void setup() {
   Wire.begin();        
