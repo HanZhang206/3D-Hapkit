@@ -89,6 +89,3 @@ T. K. Morimoto, P. Blikstein and A. M. Okamura, "[D81] Hapkit: An open-hardware 
  - Han Zhang - MSE in Biomedical Engineering, Johns Hopkins University
  - Jan Bartels - MSE in Robotics, Johns Hopkins University
  - Yuting Zhang - MSE in Computer Science, Johns Hopkins University
-
-# **TO DO** 
-- Poster 
