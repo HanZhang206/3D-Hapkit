@@ -10,7 +10,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 
 <div align="center">
 
-![](pic/demo.gif)
+![](readmedoc//demo.gif)
 </div>
 
 # **Build One**
