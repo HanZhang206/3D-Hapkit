@@ -26,11 +26,11 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 - Metric Tap and Die Set(1/4' - 20 & M4)
 ## Manufacture List
 - Parts List: [Here is a parts list with purchase information](readmedoc/partlist.md).
-- STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](CAD_and_Manufacturing\3DPrint\3DPrint.zip). Note: Model units are in mm.
-- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files](CAD_and_Manufacturing\LaserCut\3D-Hapkit.zip).
-- Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](CAD_and_Manufacturing\CAD_File\LaserCut.zip). Note: These are only for use with the SolidWorks CAD program.
-- 3D printing tips: [Here are 3D printing tips for creating your 3D-printed Hapkit parts]().
-- Assembly instructions: [Here are instructions for assembling your Hapkit into a functional haptic device]().
+- STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](CAD_and_Manufacturing/3DPrint/3DPrint.zip). Note: Model units are in mm.
+- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files](CAD_and_Manufacturing/LaserCut/3D-Hapkit.zip).
+- Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](CAD_and_Manufacturing/CAD_File/LaserCut.zip). Note: These are only for use with the SolidWorks CAD program.
+- 3D printing tips: [Here are 3D printing tips for creating your 3D-printed Hapkit parts](readmedoc/3dprinttip.md).
+- Assembly instructions: [Here are instructions for assembling your Hapkit into a functional haptic device](readmedoc/assembly.md).
 
 <div align="center">
 <img src="readmedoc/manufacture.png" alt="3 DOF Hapkit Overview" width="700">
