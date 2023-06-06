@@ -45,7 +45,7 @@ The electronics of 3D Hapkit were consisted of three custom PCB([Link to Hapkit 
 Those boards were communicated by using I2C protocol. We provided sample [Arduino code for follower](3DHapkit_Script/3DHapkit_Follower/3DHapkit_Follower.ino) and [leader](3DHapkit_Script/3DHapkit_Leader/3DHapkit_Learder.ino) to get you started porgramming haptic virtual environments with you 3D Hapkit. The code includes the calculation of inverse kinematics and all readings values from sensors. 
 ### To use 
 - Connect all Ground Pin and all I2C Ports(A4/A5) for three boards together.
-  <img src="readmedoc/I2CPort.JPG" alt="3 DOF Hapkit Overview" width="300">
+  <img src="readmedoc/I2CPort.jpg"  width="300">
 - Choose one board as the leader and load the script(3DHapkit_Leader.ino).([Arduino IDE Download](https://www.arduino.cc/en/software)).
     - If want to use Serial monitor in Arduino IDE, commented out the **Line 79**(3DHapkit_Leader.ino) in script.
     ```cpp
