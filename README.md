@@ -25,7 +25,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 - Laser Cutters([Universal Laser System – VLS6.60](https://www.pdi3d.com/Universal_Laser_VLS6_60_Laser_System_p/ul-vls660.htm?gclid=Cj0KCQjwj_ajBhCqARIsAA37s0wcB6R2M_kyPavgywdv_0DCIOlefbI1RGfbv-k4qdHt8GsdZ87696caAqnqEALw_wcB))
 - Metric Tap and Die Set(1/4' - 20 & M4)
 ## Manufacture List
-- Parts List: [Here is a parts list with purchase information](readmedoc/partlist.md).
+- Parts List: [Here is a parts list with purchase information](readmedoc/Manufacturing_List/ManufacturingList.html).
 - STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](CAD_and_Manufacturing/3DPrint/3DPrint.zip). Note: Model units are in mm.
 - DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files](CAD_and_Manufacturing/LaserCut/LaserCut.zip).
 - Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](CAD_and_Manufacturing/CAD_File/3D-Hapkit.zip). Note: These are only for use with the SolidWorks CAD program.
@@ -82,8 +82,16 @@ We create a sample scene for demo purpose. Users are able to control a ball(show
 # **Acknowledgement**
 The development and implementation of the 3D Hapkit is supported by [Haptics and Medical Robotics(HAMR) Laboratory](https://hamr.lcsr.jhu.edu/). Special thanks to Dr. Jeremy Brown for this guidance and invaluable advice.
 
+The developer of Hapkit: https://hapkit.stanford.edu/about.html
+
+T. K. Morimoto, P. Blikstein and A. M. Okamura, "[D81] Hapkit: An open-hardware haptic device for online education," 2014 IEEE Haptics Symposium (HAPTICS), Houston, TX, USA, 2014, pp. 1-1, doi: 10.1109/HAPTICS.2014.6775560.
+
+# **Contributors**
+ - Han Zhang - MSE in Biomedical Engineering, Johns Hopkins University
+ - Jan Bartels - MSE in Robotics, Johns Hopkins University
+ - Yuting Zhang - MSE in Computer Science, Johns Hopkins University
+
 # **TO DO** 
-- Citation in acknowledgement
 - Assembly Instruction
 - Part list
 - 3D print tip
