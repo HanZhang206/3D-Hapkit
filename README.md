@@ -1,10 +1,10 @@
-<div align="center">
-
+<!-- <div align="center"> -->
 # **3D Hapkit**: A Low-Cost, Open-Source, 3-DOF Haptic Device Based on the Delta Parallel Mechanism
+<div align="center">
 <img src="readmedoc/3D_Hapkit.jpg" alt="3 DOF Hapkit Overview" width="500">
 </div>
 
-3D Hapkit is a 3-DOF haptic device that was created as a customization project for [Hapkit 3.0](https://hapkit.stanford.edu/). The 3D Hapkit was presented as WIP Paper and Demo in [2023 IEEE World Haptics](https://2023.worldhaptics.org/wip-papers/). This device is an open-hardware haptic device designed to be low-cost(<$300) and easy to assemble, allowing users to input motions and feel programmed forces in three degrees of freedom. 
+3D Hapkit is a 3-Degree-Of-Freedom haptic device that was created as a customization project for [Hapkit 3.0](https://hapkit.stanford.edu/). The 3D Hapkit was presented as WIP Paper and Demo in [2023 IEEE World Haptics](https://2023.worldhaptics.org/wip-papers/). This device is an open-hardware haptic device designed to be low-cost(<$300) and easy to assemble, allowing users to input motions and feel programmed forces in three degrees of freedom. 
 
 Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University Haptic Interface Design Course in Fall 2023!
 
@@ -25,10 +25,10 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 - Laser Cutters([Universal Laser System – VLS6.60]())
 - Metric Tap and Die Set(1/4' - 20 & M4)
 ## Manufacture List
-- Parts List: [Here is a parts list with purchase information]().
-- STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](). Note: Model units are in mm.
-- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files9
-- Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](). Note: These are only for use with the SolidWorks CAD program.
+- Parts List: [Here is a parts list with purchase information](readmedoc/partlist.md).
+- STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](CAD_and_Manufacturing\3DPrint\3DPrint.zip). Note: Model units are in mm.
+- DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files](CAD_and_Manufacturing\LaserCut\3D-Hapkit.zip).
+- Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](CAD_and_Manufacturing\CAD_File\LaserCut.zip). Note: These are only for use with the SolidWorks CAD program.
 - 3D printing tips: [Here are 3D printing tips for creating your 3D-printed Hapkit parts]().
 - Assembly instructions: [Here are instructions for assembling your Hapkit into a functional haptic device]().
 
