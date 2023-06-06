@@ -25,7 +25,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 - Laser Cutters([Universal Laser System – VLS6.60](https://www.pdi3d.com/Universal_Laser_VLS6_60_Laser_System_p/ul-vls660.htm?gclid=Cj0KCQjwj_ajBhCqARIsAA37s0wcB6R2M_kyPavgywdv_0DCIOlefbI1RGfbv-k4qdHt8GsdZ87696caAqnqEALw_wcB))
 - Metric Tap and Die Set(1/4' - 20 & M4)
 ## Manufacture List
-- Parts List: [Here is a parts list with purchase information](readmedoc/Manufacturing_List/ManufacturingList.html).
+- Parts List: [Here is a parts list with purchase/manufacture information](https://htmlpreview.github.io/?https://github.com/HanZhang206/3D-Hapkit/blob/main/readmedoc/Manufacturing_List/ManufacturingList.html).
 - STL files for 3D printing: [Click here to download a zip file of Hapkit STL Files](CAD_and_Manufacturing/3DPrint/3DPrint.zip). Note: Model units are in mm.
 - DXF files for Laser cut: [Click here to download a zip file of Hapkit DXF Files](CAD_and_Manufacturing/LaserCut/LaserCut.zip).
 - Modifiable SolidWorks files: [Click here to download a zip file of Hapkit SolidWorks Files](CAD_and_Manufacturing/CAD_File/3D-Hapkit.zip). Note: These are only for use with the SolidWorks CAD program.
@@ -41,7 +41,7 @@ Moving forward, this 3D Hapkit will be deployed in the Johns Hopkins University 
 <img src="readmedoc/arduinoworkflow.png" alt="3 DOF Hapkit Overview" width="700">
 </div>
 
-The electronics of 3D Hapkit were consisted of three custom PCB([Link to Hapkit 3.0](https://hapkit.stanford.edu/build.html)), the size of an Arduino Uno and includes a microcontroller, motor driver/amplifier. The Hapkit board could be purchased from [Seeed studio](https://www.seeedstudio.com/depot/hapkit-p-1622.html). Also, you can manufacture your own PCB by combining the Arduino, motor driver and sensors. Here is a good starting point obtained from Seeed Studio([Files](HapkitSeeedPCB.zip)).
+The electronics of 3D Hapkit were consisted of three custom PCB([Link to Hapkit 3.0](https://hapkit.stanford.edu/build.html)), the size of an Arduino Uno and includes a microcontroller, motor driver/amplifier. The Hapkit board could be purchased from [Seeed studio](https://www.seeedstudio.com/depot/hapkit-p-1622.html). Also, you can manufacture your own PCB by combining the Arduino, motor driver and sensors. Here is a good starting point obtained from Seeed Studio([Files](readmedoc/HapkitSeeedPCB.zip)).
 
 Those boards were communicated by using I2C protocol. We provided sample [Arduino code for follower](3DHapkit_Script/3DHapkit_Follower/3DHapkit_Follower.ino) and [leader](3DHapkit_Script/3DHapkit_Leader/3DHapkit_Learder.ino) to get you started porgramming haptic virtual environments with you 3D Hapkit. The code includes the calculation of inverse kinematics and all readings values from sensors. 
 ### To use 
@@ -93,6 +93,5 @@ T. K. Morimoto, P. Blikstein and A. M. Okamura, "[D81] Hapkit: An open-hardware 
 
 # **TO DO** 
 - Assembly Instruction
-- Part list
 - 3D print tip
 - Poster 
