@@ -4,7 +4,7 @@
 <img src="readmedoc/3D_Hapkit.jpg" alt="3 DOF Hapkit Overview" width="500">
 </div>
 
-The 3D Hapkit is a 3-Degrees-Of-Freedom haptic device that was created as a class project for Haptic Interface Design under Dr. Jeremy Brown in Fall 2022. The 3D Hapkit is based on the [Hapkit 3.0](https://hapkit.stanford.edu/) and was presented as WIP Paper and Demo at [2023 IEEE World Haptics](https://2023.worldhaptics.org/wip-papers/). This device is an open-hardware haptic device designed to be low-cost(<$300) and easy to assemble, allowing users to input motions and feel programmed forces in three degrees of freedom. 
+The 3D Hapkit is a 3-Degrees-Of-Freedom haptic device that was created as a class project for Haptic Interface Design under Dr. Jeremy Brown in Fall 2022. The 3D Hapkit is based on the [Hapkit 3.0](https://hapkit.stanford.edu/) and was presented as WIP Paper and Demo at [2023 IEEE World Haptics](https://2023.worldhaptics.org/wp-content/uploads/2023/06/1070-doc.pdf). This device is an open-hardware haptic device designed to be low-cost(<$300) and easy to assemble, allowing users to input motions and feel programmed forces in three degrees of freedom. 
 
 Moving forward, the 3D Hapkit will be deployed at the Johns Hopkins University Haptic Interface Design Course in Fall 2023!
 
