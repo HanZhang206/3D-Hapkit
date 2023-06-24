@@ -40,9 +40,9 @@ Moving forward, the 3D Hapkit will be deployed at the Johns Hopkins University H
 <img src="readmedoc/arduinoworkflow.png" alt="3 DOF Hapkit Overview" width="700">
 </div>
 
-The electronics of the 3D Hapkit consist of three [Hapkit 3.0s](https://hapkit.stanford.edu/build.html)). The Hapkit board can be purchased from [Seeed studio](https://www.seeedstudio.com/depot/hapkit-p-1622.html). It is also possible to manufacture your own PCB by combining an Arduino, motor driver and sensors. Here is a good starting point obtained from Seeed Studio([Files](readmedoc/HapkitSeeedPCB.zip)).
+The electronics of the 3D Hapkit consist of three [Hapkit 3.0s](https://hapkit.stanford.edu/build.html). The Hapkit board can be purchased from [Seeed studio](https://www.seeedstudio.com/depot/hapkit-p-1622.html). It is also possible to manufacture your own PCB by combining an Arduino, motor driver and sensors. Here is a good starting point obtained from Seeed Studio([Files](readmedoc/HapkitSeeedPCB.zip)).
 
-The three boards are communicating using the I2C protocol. We provid sample [Arduino code for follower](3DHapkit_Script/3DHapkit_Follower/3DHapkit_Follower.ino) and [leader](3DHapkit_Script/3DHapkit_Leader/3DHapkit_Learder.ino) to get you started porgramming haptic virtual environments with your 3D Hapkit. The code includes the calculation of inverse kinematics and all readings values from sensors.
+The three boards are communicating using the I2C protocol. We provid sample [Arduino code for follower](3DHapkit_Script/3DHapkit_Follower/3DHapkit_Follower.ino) and [leader](3DHapkit_Script/3DHapkit_Leader/3DHapkit_Learder.ino) to get you started porgramming haptic virtual environments with your 3D Hapkit. The code includes the calculation of forward kinematics and all readings values from sensors.
 
 ### To use 
 - Connect the ground and I2C pins (A4/A5) of the three boards together.
