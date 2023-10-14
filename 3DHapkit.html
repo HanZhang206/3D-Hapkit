@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://hapkit.stanford.edu/twoDOF.html -->
+<html lang="en" style="" class=" js no-touch csstransforms3d csstransitions"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    
+    <title>Hapkit</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" type="text/css" href="./3DHapkit_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./3DHapkit_files/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="./3DHapkit_files/style.css">
+    <link rel="stylesheet" type="text/css" href="./3DHapkit_files/slider.css">
+    <link rel="stylesheet" type="text/css" href="./3DHapkit_files/prettyPhoto.css">
+  
+    <!-- Skin Colors -->
+    <link rel="stylesheet" href="./3DHapkit_files/orange.css" name="skins">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fonts
+    ================================================== -->
+    <link href="./3DHapkit_files/css" rel="stylesheet" type="text/css">
+
+    <!-- Javascript
+    ================================================== -->
+    <script async="" src="./3DHapkit_files/analytics.js.download"></script><script type="text/javascript" src="./3DHapkit_files/modernizr.custom.79639.js.download"></script>
+
+    <!-- Favicons
+    ================================================== -->  
+    <link rel="shortcut icon" href="https://hapkit.stanford.edu/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://hapkit.stanford.edu/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://hapkit.stanford.edu/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://hapkit.stanford.edu/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://hapkit.stanford.edu/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://hapkit.stanford.edu/img/apple-touch-icon-144x144.png">
+
+</head>
+<body>
+    
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+    
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+                <a href="https://hapkit.stanford.edu/index.html"><img class="logo" src="./3DHapkit_files/logo.png" alt="Items"></a>
+            </div>
+            <div class="span9">
+                <nav class="mobile-center navigation">
+                    <ul>
+                        <li><a href="https://hapkit.stanford.edu/index.html">Home</a></li>
+                        <li><a href="https://hapkit.stanford.edu/about.html">About</a></li>
+                        <li><a href="https://hapkit.stanford.edu/build.html">Build one</a></li>
+                        <!-- <li><a href="index.html">Projects</a></li> -->
+                        <li><a href="https://hapkit.stanford.edu/courses.html">Courses</a></li>
+                        <li><a href="https://hapkit.stanford.edu/resources.html">Resources</a></li>
+                        <li><a href="https://hapkit.stanford.edu/twoDOF.html">2-DOF</a></li>
+						<li><a href="https://hapkit.stanford.edu/3DHapkit.html" class="selected">3-DOF</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header><!-- /header -->   
+
+<div class="full max-height-400 add-top">
+    <div class="container">
+        <div class="row add-top-large">
+			<div class="span14 post-info">
+				<div class="paged padding-tb-small">
+					<!--<div class="inner-container">
+						<ul>
+							<li><a href="https://hapkit.stanford.edu/twoDOF.html#graphkit">Graphkit</a></li>
+							<li><a href="https://hapkit.stanford.edu/twoDOF.html#haplink">Haplink</a></li>
+						</ul>
+					</div>-->
+				</div>
+			</div>
+
+			<div class="span9">
+                       
+				<div class="section" id="3dhapkit">
+					<h1>Three-Degree-Of-Freedom Device</h1>
+					<table>
+						<tr>
+							<th style="padding-right: 10px">
+								<img src="./3DHapkit_files/3DHapkitGlamour.jpg" alt="3D Hapkit" style="max-height:350px">
+							</th>
+							<th style="padding-right: 10px">
+								<img src="./3DHapkit_files/3DHapkitRender.png" alt="3D Hapkit Component Render" style="max-height:350px">
+							</th>
+							<th>
+								<img src="./3DHapkit_files/3DHapkitDemo.png" alt="3D Hapkit Demo" style="max-height:350px">
+							</th>
+						</tr>
+					</table>
+					<p>
+					Students at the Johns Hopkins University have designed a three-degree-of-freedom (3-DOF) device based on the Hapkit and delta-mechanism.
+					The system can be built using commonly available bearings and screws as well as laser-cut and 3D-printed structural components. The demo 
+					currently only renders a flat surface with two holes (right image). Future work will include the implementation of the Jacobian-transpose for force control 
+					as well as an assembly video. <br><br>
+					The 3D Hapkit was presented as a demo and WIP paper at the <a href="https://2023.worldhaptics.org/wp-content/uploads/2023/06/1070-doc.pdf">2023 IEEE World Haptics Conference</a>.
+					</p>
+
+					<h6>3D Hapkit Hardware Resources:</h6>
+					<img src="./3DHapkit_files/3DHapkitParts.png" alt="3D Hapkit Parts" style="max-height:350px">
+					
+					<p></p>
+					<p>
+					All design files can be found on <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main">GitHub</a>
+					<li>Parts list: <a href="https://htmlpreview.github.io/?https://github.com/HanZhang206/3D-Hapkit/blob/main/readmedoc/Manufacturing_List/ManufacturingList.html">Available here</a></li>
+					<li>STL files for 3D printing: <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main/CAD_and_Manufacturing/3DPrint">Available here</a></li>
+					<li>STL files for lasercutting: <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main/CAD_and_Manufacturing/LaserCut">Available here</a></li>
+					<li>Modifiable SolidWorks files: <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main/CAD_and_Manufacturing/CAD_File">Available here></a></li>
+					<li>Assembly Instructions: Currently unavailable </li>
+					</p>
+                    
+					<h6>Haplink Example Code:</h6>
+					<p> <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main/3DHapkit_Script">The example code can be found on GitHub</a> </p>
+					<p> Install the Leader code on the Arduino that's connected to the PC and the Follower code on the two other Arduinos.
+						<br>
+						On the PC, install <a href="https://processing.org/"> Processing </a> and load the <a href="https://github.com/HanZhang206/3D-Hapkit/tree/main/3DHapkit_Script/deltaProcessing"> deltaProcessing </a> application.
+						Power all three boards and connect the Leader Arduino to the PC. Ensure that the COM port is correct by checking the COM port of the Arduino in Device Manager.
+						Once everything is running you will see the green dot track the movement of the 3D hapkit and be able to interact with the virtual surface.
+					</p>
+      
+				</div>    
+</div>
+</div>
+    
+<footer>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span6 copyright">
+                <p>Copyright © Stanford University. All Rights Reserved.</p>
+            </div>
+            <div class="span6 footnav">
+                <div class="socialbar_mini borderless">
+                    <ul class="ssm">
+                        <li class="twitter"><a href="http://twitter.com/share?text=&amp;url=http://hapkit.stanford.edu"></a></li>
+                        <li class="facebook"><a href="http://www.facebook.com/sharer.php?u=http://hapkit.stanford.edu"></a></li>
+                        <li class="googleplus"><a href="https://plus.google.com/share?url=http%3A%2F%2Fhapkit.stanford.edu"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<div class="scrollTop">
+	<a href="javascript:void(0);"><i class="icon-chevron-up"></i></a>
+</div>
+
+
+<!-- Javascript
+================================================== -->
+<script type="text/javascript" src="./3DHapkit_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/bootstrap.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/jquery.cookie.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/jquery.ba-cond.min.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/jquery.slitslider.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/jquery.prettyPhoto.js.download"></script>
+<script type="text/javascript" src="./3DHapkit_files/custom.js.download"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-36419743-2', 'stanford.edu');
+  ga('send', 'pageview');
+ 
+</script>
+
+
+
+</div></div></body></html>
