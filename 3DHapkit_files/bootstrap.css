@@ -200,10 +200,10 @@ a:hover {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 1020px;
 }
 .span12 {
-  width: 940px;
+  width: 1020px;
 }
 .span11 {
   width: 860px;
@@ -212,7 +212,7 @@ a:hover {
   width: 780px;
 }
 .span9 {
-  width: 700px;
+  width: 780px;
 }
 .span8 {
   width: 620px;
